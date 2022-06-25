@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# 프로젝트 실행 방법
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.npm install
 
-## Available Scripts
+2.npm start
 
-In the project directory, you can run:
+## 사용한 기술과 선택한 이유
 
-### `npm start`
+`REACT`
+ 
+ - 과제의 필수 사용 기술
+ - [공식 홈페이지](https://ko.reactjs.org/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`TYPESCRIPT`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ - 정적 타입을 지원하므로 컴파일 단계에서 오류를 포착할 수 있는 장점이 있다. 명시적인 정적 타입 지정은 개발자의 의도를 명확하게 코드로 기술할 수 있다. 이는 코드의 가독성을 높이고 예측할 수 있게 하며 디버깅을 쉽게 한다.
+ - react 와 더불어 기타 다른 JS 프레임워크와 잘 맞는다고 생각함 
+ - [공식 홈페이지](https://www.typescriptlang.org/) 
 
-### `npm test`
+`STYLED-COMPONENTS`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- CSS를 JavaScript에서 인라인 형식으로 활용할 수 있는 스타일링 프레임워크
+- 스타일의 재사용성이 높아지는 장점
+- [공식 홈페이지](https://styled-components.com/)
 
-### `npm run build`
+`DAYJS`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 기본적인 기능만 포함하여 매우 작은 사이즈의 번들
+- [공식 홈페이지](https://day.js.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 요구사항
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 문구, 이미지의 레이아웃과 스타일은 트리플 홈페이지와 동일해야 합니다. 단, 반응형 레이아웃은 고려하지 않습니다. 최소 화면 폭을 1200px로 고정합니다.
+- **React**를 이용하여 개발합니다. 그 외의 개발 스택은 자유롭게 구성합니다.
+- **Google Chrome** 최신 버전에서 동작해야 합니다.
+- **README.md**를 작성합니다. 아래 내용을 반드시 포함하되, 이외 내용은 자유롭게
+추가할 수 있습니다.
+ *     프로젝트 실행 방법
+ *     사용한 기술과 선택한 이유
+- 린팅/포매팅 셋업 시 titicacadev/eslint-config-triple을 적용해주세요.
